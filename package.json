@@ -1,0 +1,24 @@
+{
+  "name": "json-schema-assert",
+  "version": "0.1.0",
+  "description": "json schema assertion utility",
+  "main": "index.js",
+  "scripts": {
+      "test": "mocha ./tests",
+      "posttest": "jshint index.js ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.xiag.ch/git/stc/hotels-mys/json-schema-assert"
+  },
+  "author": "Maxim Gnatenko <maxim@xiag.ch>",
+  "license": "PROPRIETARY",
+  "dependencies": {
+    "request": "^2.36.0",
+    "json-schema-validator": "git+https://github.com/Magomogo/json-schema-validator.git"
+  },
+  "devDependencies": {
+    "mocha": "^1.19.0",
+    "jshint": "^2.5.1"
+  }
+}
