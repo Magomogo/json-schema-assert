@@ -14,7 +14,6 @@
   "author": "Maxim Gnatenko <mgnatenko@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "request": "^2.36.0",
     "json-schema-validator": "git+https://github.com/Magomogo/json-schema-validator.git#0.2.0"
   },
   "devDependencies": {
