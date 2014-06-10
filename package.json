@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git.xiag.ch/git/stc/hotels-mys/json-schema-assert"
+    "url": "https://github.com/Magomogo/json-schema-assert"
   },
   "author": "Maxim Gnatenko <mgnatenko@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "json-schema-validator": "git+https://github.com/Magomogo/json-schema-validator.git#0.2.0"
+    "json-schema-validator": "~0.2"
   },
   "devDependencies": {
     "mocha": "^1.19.0",

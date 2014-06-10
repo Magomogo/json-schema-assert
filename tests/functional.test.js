@@ -7,6 +7,8 @@
 
     describe('json-schema-assert', function () {
 
+        this.timeout(10000);
+
         before(function (done) {
             jsonAssert.before(done);
         });
