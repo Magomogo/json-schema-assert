@@ -3,7 +3,9 @@ json-schema-assert
 
 [![Build Status](https://travis-ci.org/Magomogo/json-schema-assert.svg)](https://travis-ci.org/Magomogo/json-schema-assert)
 
-JSON Schema assert utility
+JSON Schema assert utility. Uses the [tv4](https://www.npmjs.org/package/tv4) JSON Schema validator,
+and the formats provided by the [tv4-formats](https://github.com/ikr/tv4-formats/). It loads all the
+referenced JSON schemas over the internet to bootstrap tv4.
 
 ## Usage with Mocha
 
